@@ -17,7 +17,7 @@
             font-size: 2.5rem;
             text-align: center;
         }
-        p, b, i, sub, sup, small, big, ins, em, strong, code, samp, kbd, dfn, var, cite, u, tt {
+        p, b, i, small, big, ins, em, strong, code, samp, kbd, dfn, var, cite, u, tt {
             display: block;
             margin: 10px 0;
         }
@@ -28,18 +28,7 @@
             font-style: italic;
             color: #5bc0de;
         }
-        sub, sup {
-            font-size: 0.8rem;
-            vertical-align: baseline;
-        }
-        sub {
-            position: relative;
-            top: 0.3em;
-        }
-        sup {
-            position: relative;
-            top: -0.3em;
-        }
+       
         small {
             font-size: 0.85rem;
             color: #888;
@@ -87,8 +76,10 @@
     <p>This is my paragraph tag</p>
     <b>This is used to bold the content</b>
     <i>This is italic text</i>
-    H<sub>2</sub>O
-    E = MC<sup>2</sup>
+   <p> H<sub>2</sub>O </p>
+    <br>
+    <p>E = MC<sup>2</sup></p>
+    <br>
     <small><i>Small Italic</i></small>
     <big>Bigger</big>
     <ins>Inserted Text</ins>
