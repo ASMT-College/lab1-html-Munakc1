@@ -69,11 +69,22 @@
     </style>
 </head>
 <body>
+  
     <form action="https://www.google.com/search" method="get">
-        <!-- Displaying the Google logo -->
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-        <input type="text" name="q" placeholder="Search Google">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Googel logo">
+        <input type="text" name ="q" placeholder="Search Google">
         <input type="submit" value="Search">
+
     </form>
+    <?php
+    echo 'i am from server';
+    ?>
+    <script>
+        document.write('This is google ');
+        alert('hi');
+    </script>
 </body>
 </html>
+
+
+
